@@ -1,0 +1,70 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require_self
+*/
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size:12px;
+	background: transparent url("networkbackgroundtile.png") repeat;
+}
+
+.smallShadow {
+	box-shadow: 2px 2px 5px #22426d;
+}
+
+table.highlight.dataTable tbody tr.rowSelected td {
+	background: #9fda7b;
+}
+
+table.highlight.dataTable tbody tr:hover {
+	background: #9fda7b;
+}
+
+table.highlight.dataTable tbody tr:hover td.sorting_1 {
+	background: #9fda7b;
+}
+
+table.highlight.dataTable tbody tr:hover td.sorting_2 {
+	background: #9fda7b;
+}
+
+table.highlight.dataTable tbody tr:hover td.sorting_3 {
+	background: #9fda7b;
+}
+
+table.clickable.dataTable tbody tr.rowSelected td {
+	background: #9fda7b;
+}
+
+table.clickable.dataTable tbody tr:hover {
+	background: #9fda7b;
+	cursor: pointer;
+}
+
+table.clickable.dataTable tbody tr:hover td.sorting_1 {
+	background: #9fda7b;
+	cursor: pointer;
+}
+
+table.clickable.dataTable tbody tr:hover td.sorting_2 {
+	background: #9fda7b;
+	cursor: pointer;
+}
+
+table.clickable.dataTable tbody tr:hover td.sorting_3 {
+	background: #9fda7b;
+	cursor: pointer;
+}
+
